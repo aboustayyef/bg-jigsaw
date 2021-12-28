@@ -1,4 +1,4 @@
-<section id="navigation" class="shadow-md">
+<section id="navigation" class="">
 
   <nav class="px-4 container pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between max-w-7xl" x-data="{ open: false}">
       <div class="flex justify-between items-center">

@@ -2,4 +2,5 @@
 
 @section('body')
     <x-nav />
+    <x-hero />
 @endsection
