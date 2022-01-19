@@ -16,8 +16,7 @@
 
     {{-- Call to action --}}
     <div class="absolute top-8 left-8">
-      <h2 class="mb-4 text-2xl font-bold z-10">Call to Action on Top of slideshow</h2>
-      <a class= "linear-block bg-green-800 px-4 py-2 hover:bg-green-900 text-white rounded" href="#">Take Action</a>
+      {{-- Call to action items go here --}}
     </div>
   
   </div>
