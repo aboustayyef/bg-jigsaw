@@ -4,13 +4,13 @@
 @endphp
 
 <section>
-  <div class="container w-full max-w-7xl mx-auto bg-gray-100 relative" >
+  <div class="w-full mx-auto bg-gray-100 relative" >
 
     {{-- slides --}}
     <div class="main-carousel w-full" data-flickity='{ "fade":true, "autoPlay":true, "contain": true, "bgLazyLoad": true, "imagesLoaded": true, "pageDots": false }'>
-      <div class="carousel-cell w-full aspect-video bg-cover" data-flickity-bg-lazyload="/assets/images/slides/lennox_soft_2016_002.jpg" ></div>
+      <div class="carousel-cell w-full aspect-[20/9]  bg-cover" data-flickity-bg-lazyload="/assets/images/slides/lennox_soft_2016_002.jpg" ></div>
       @foreach($slides_to_show as $slide)
-      <div class="carousel-cell w-full aspect-video bg-cover" data-flickity-bg-lazyload="{{'/assets/images/slides/'. $all_slides[$slide]}}" ></div>
+      <div class="carousel-cell w-full aspect-[20/9] bg-cover" data-flickity-bg-lazyload="/assets/images/slides/{{$all_slides[$slide]}}" ></div>
       @endforeach
     </div>
 

@@ -1,6 +1,6 @@
 <section id="navigation" class="">
 
-  <nav class="px-4 lg:px-0 container pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between max-w-7xl" x-data="{ open: false}">
+  <nav class="px-4 lg:px-0 container pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between" x-data="{ open: false}">
       <div class="flex justify-between items-center">
 
            {{--Logo  --}}
