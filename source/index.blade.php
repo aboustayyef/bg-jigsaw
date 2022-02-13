@@ -4,4 +4,6 @@
     <x-nav />
     <x-hero />
     <x-why-blog />
+    <x-our-customers :page="$page" />
+    <x-our-collection />
 @endsection
