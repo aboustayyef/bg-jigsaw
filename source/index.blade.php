@@ -6,4 +6,6 @@
     <x-why-blog />
     <x-our-customers :page="$page" />
     <x-our-collection />
+    <x-our-brands/>
+    <x-projects/>
 @endsection

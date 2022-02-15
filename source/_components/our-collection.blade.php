@@ -1,6 +1,6 @@
 <x-partials.bg-section>
   <x-partials.heading heading="Our Collection" sub="none" />
-  <div class="justify-between md:grid md:grid-cols-3 md:gap-6">
+  <div class="justify-between md:grid md:grid-cols-3 md:gap-8">
     <x-partials.collection-item title="Home Furniture" img="/assets/images/collection_ditre.jpeg">
       Modern, Stylish and exclusive. Blue Gallery only stocks the highest standards of sofas, armchairs, coffee tables, Beds and mattresses for the contemporary living room.
     </x-partials.collection-item>
