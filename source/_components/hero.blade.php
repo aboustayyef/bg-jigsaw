@@ -5,7 +5,8 @@
 
 <section>
   <div class="w-full mx-auto bg-gray-100 relative" >
-
+    {{-- Slogan --}}
+    <x-partials.slogan/> 
     {{-- slides --}}
     <div class="main-carousel w-full" data-flickity='{ "fade":true, "autoPlay":true, "contain": true, "bgLazyLoad": true, "imagesLoaded": true, "pageDots": false }'>
       <div class="carousel-cell w-full aspect-[20/9]  bg-cover" data-flickity-bg-lazyload="/assets/images/slides/lennox_soft_2016_002.jpg" ></div>
@@ -14,10 +15,6 @@
       @endforeach
     </div>
 
-    {{-- Call to action --}}
-    <div class="absolute top-8 left-8">
-      {{-- Call to action items go here --}}
-    </div>
   
   </div>
 </section>
