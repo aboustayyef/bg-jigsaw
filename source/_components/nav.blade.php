@@ -1,6 +1,6 @@
 <section id="navigation" class="">
 
-  <nav class="px-4 lg:px-0 container pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between" x-data="{ open: false}">
+  <nav class="px-4 lg:px-0 w-full max-w-6xl pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between" x-data="{ open: false}">
       <div class="flex justify-between items-center">
 
            {{--Logo  --}}
@@ -24,11 +24,11 @@
       </div>
 
       <ul class="mt-4 lg:mt-0 lg:flex lg:space-x-4" :class="open ? 'block' : 'hidden'">
-          <li class=><a href="#" class="nav-link">Collection</a></li>
-          <li class=><a href="#" class="nav-link">Brands</a></li>
-          <li class=><a href="#" class="nav-link">Projects</a></li>
-          <li class=><a href="#" class="nav-link">About</a></li>
-          <li class=><a href="#" class="nav-link">Contact Us</a></li>
+          <li><a href="#" class="nav-link">Collection</a></li>
+          <li><a href="#" class="nav-link">Brands</a></li>
+          <li><a href="#" class="nav-link">Projects</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact Us</a></li>
       </ul>
   </nav>
 </section>

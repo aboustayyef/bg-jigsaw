@@ -1,3 +1,4 @@
+<div class="w-full max-w-6xl mx-auto px-4 relative">
 <div class="w-full left-0 ml-4 md:ml-0 top-24 md:absolute z-50">
   <div class="sm:ml-16">
     <div class="px-4 py-2 bg-accent -ml-28 inline-block slide-right">
@@ -8,4 +9,5 @@
       <a class="bg-accent rounded text-white px-3 py-1 absolute bottom-3 right-8 md:right-3 hover:bg-gray-700 border border-accent" href="#">Call Us</a>
     </div>
   </div>
+</div>
 </div>
