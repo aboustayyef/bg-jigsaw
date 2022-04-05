@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-link{
-  @apply transition ease-in duration-500 text-gray-500 block px-2 py-2 my-0 lg:py-4 bg-opacity-0 bg-slate-100 hover:bg-opacity-100  border-t border-gray-400 lg:border-t-0 
+  @apply text-gray-500 block px-2 py-2 my-0 lg:py-4 bg-opacity-0 bg-slate-100 hover:bg-opacity-100  border-t border-gray-400 lg:border-t-0 
 }
 
 /*! Flickity v2.3.0

@@ -1,34 +1,57 @@
 <section id="navigation" class="">
 
-  <nav class="px-4 lg:px-0 w-full max-w-6xl pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between" x-data="{ open: false}">
-      <div class="flex justify-between items-center">
+    <nav class="px-4 xl:px-0 w-full max-w-6xl pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between"
+        x-data="{ burger_open: false, collection_open: false}">
+        <div class="flex justify-between items-center">
 
-           {{--Logo  --}}
-          <picture>
-              <a href="/"><img src="/assets/images/bg_logo.svg" class="w-64"></a>
-          </picture>
+            {{--Logo --}}
+            <picture>
+                <a href="/"><img src="/assets/images/bg_logo.svg" class="w-64"></a>
+            </picture>
 
-          {{-- Burger Menu (open / close states) --}}
-          <div class="cursor-pointer">
-            <div x-show="!open">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:hidden" x-on:click="open= !open" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
+            {{-- Burger Menu (open / close states) --}}
+            <div class="cursor-pointer">
+                <div x-show="!burger_open" x-on:click="burger_open= !burger_open">
+                    <x-graphics.burger />
+                </div>
+                <div x-show="burger_open" x-on:click="burger_open= !burger_open">
+                    <x-graphics.x classes="w-8 h-8" />
+                </div>
             </div>
-            <div x-show="open">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:hidden" fill="none" x-on:click="open= !open" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </div>
-          </div>
-      </div>
-
-      <ul class="mt-4 lg:mt-0 lg:flex lg:space-x-4" :class="open ? 'block' : 'hidden'">
-          <li><a href="#" class="nav-link">Collection</a></li>
-          <li><a href="#" class="nav-link">Brands</a></li>
-          <li><a href="#" class="nav-link">Projects</a></li>
-          <li><a href="#" class="nav-link">About</a></li>
-          <li><a href="#" class="nav-link">Contact Us</a></li>
-      </ul>
-  </nav>
+        </div>
+        <ul class="relative mt-4 lg:mt-0 lg:flex lg:space-x-4" :class="burger_open ? 'block' : 'hidden'">
+            <a href="#" class="nav-link" x-on:click="collection_open = !collection_open">
+                <li class="group">
+                    <div class="flex justify-between items-center overflow-auto group-hover:bg-slate-100 pr-2">
+                        Collection
+                        <div class="cursor-pointer" x-show="!collection_open"
+                            x-on:click.stop="collection_open = !collection_open">
+                            <x-graphics.chevron-down />
+                        </div>
+                        <div class="cursor-pointer" x-show="collection_open"
+                            x-on:click.stop="collection_open = !collection_open">
+                            <x-graphics.x classes="w-4 h-4" />
+                        </div>
+                    </div>
+                </li>
+            </a>
+            <ul x-show="collection_open"
+                class="bg-white lg:absolute -left-4 top-14 lg:w-40 lg:z-40 lg:shadow-lg group-hover:bg-inherit"
+                @click.outside="collection_open = !collection_open">
+                <a href="#">
+                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Home</li>
+                </a>
+                <a href="#">
+                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Office</li>
+                </a>
+                <a href="#">
+                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Accessories</li>
+                </a>
+            </ul>
+            <li><a href="#" class="nav-link">Brands</a></li>
+            <li><a href="#" class="nav-link">Projects</a></li>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
 </section>

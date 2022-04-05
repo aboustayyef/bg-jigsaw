@@ -1,8 +1,10 @@
 module.exports = {
   content: [
-    'source/**/*.blade.php',
-    'source/**/*.md',
-    'source/**/*.html',
+    // 'source/*.blade.php',
+    'source/_assets/**/*.blade.php',
+    'source/_components/**/*.blade.php',
+    'source/_layouts/**/*.blade.php',
+    'source/index.blade.php'
   ],
   theme: {
     extend: {
