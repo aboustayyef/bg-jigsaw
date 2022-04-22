@@ -16,6 +16,7 @@
     },
     "dependencies": {
         "alpinejs": "^3.7.1",
+        "fast-glob": "^3.2.11",
         "flickity": "^2.3.0",
         "flickity-bg-lazyload": "^1.0.1",
         "flickity-imagesloaded": "^2.0.0",

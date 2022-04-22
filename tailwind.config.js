@@ -1,16 +1,10 @@
 module.exports = {
-  content: [
-    // 'source/*.blade.php',
-    'source/_assets/**/*.blade.php',
-    'source/_components/**/*.blade.php',
-    'source/_layouts/**/*.blade.php',
-    'source/index.blade.php'
-  ],
+  content: require("fast-glob").sync(["source/**/*.blade.php", "source/**/*.md", "source/**/*.html"], { dot: true }),
   theme: {
     extend: {
       colors: {
-        'accent': '#98aff3',
-      }
+        accent: "#98aff3",
+      },
     },
   },
   plugins: [],
