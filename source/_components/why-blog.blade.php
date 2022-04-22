@@ -17,6 +17,10 @@
           to name a few.</x-partials.why-bg>
       </div>
     </div>
-    <x-partials.heading heading="Our News" sub="none" />
+    <div class="w-1/3">
+      <x-partials.heading heading="Our News" sub="none" />
+      {{$news->first()->title}}
+      <img src="/assets/images/news/conference.jpg">
+    </div>
   </div>
 </x-partials.bg-section>

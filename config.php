@@ -5,7 +5,12 @@ return [
     'baseUrl' => '',
     'title' => 'Blue Gallery Ghana',
     'description' => 'Website description.',
-    'collections' => [],
+    'collections' => [
+        'news' => [
+            'path' => 'news/{date|Y-m-d}/{filename}',
+            'sort'  => '-date',
+        ],
+    ],
     'customer_logos'    =>  [
         'accra_brewery.png',
         'agility.jpg',

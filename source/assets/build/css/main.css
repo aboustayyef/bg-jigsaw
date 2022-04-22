@@ -492,6 +492,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .flex {
   display: flex;
 }
+.table {
+  display: table;
+}
 .grid {
   display: grid;
 }
@@ -527,6 +530,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-2\/3 {
   width: 66.666667%;
+}
+.w-1\/3 {
+  width: 33.333333%;
 }
 .max-w-6xl {
   max-width: 72rem;
