@@ -33,7 +33,7 @@
                 </li>
             </a>
             <ul x-show="collection_open"
-                class="bg-white lg:absolute -left-4 top-14 lg:w-40 lg:z-40 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
+                class=" lg:absolute -left-4 top-14 lg:w-40 lg:z-50 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
                 @click.outside="collection_open = !collection_open">
                 <a href="#">
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Home</li>

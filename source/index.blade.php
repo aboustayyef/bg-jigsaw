@@ -8,4 +8,5 @@
     <x-our-collection />
     <x-our-brands/>
     <x-projects/>
+    <x-corporate/>
 @endsection

@@ -1,6 +1,6 @@
 <x-partials.bg-section>
-  <div class="flex">
-    <div class="w-2/3 pr-8">
+  {{-- <div class="flex"> --}}
+    <div class="w-full pr-8">
       <x-partials.heading heading="Why Blue Gallery" sub="6 Reasons why our furniture stands out" />
       <div class="mt-6 grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <x-partials.why-bg title="Modern">Twenty first century designs and trends using the latest technologies in
@@ -17,10 +17,10 @@
           to name a few.</x-partials.why-bg>
       </div>
     </div>
-    <div class="w-1/3">
+    {{-- <div class="w-1/3">
       <x-partials.heading heading="Our News" sub="none" />
       {{$news->first()->title}}
       <img src="/assets/images/news/conference.jpg">
-    </div>
-  </div>
+    </div> --}}
+  {{-- </div> --}}
 </x-partials.bg-section>

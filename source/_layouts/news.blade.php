@@ -10,6 +10,8 @@
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class="text-gray-900 font-sans antialiased">
-        @yield('body')
+        <h1>{{$page->title}}</h1>
+        <img src="/assets/images/news/{{$page->featureImage}}" alt="">
+        @yield('content')
     </body>
 </html>
