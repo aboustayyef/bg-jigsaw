@@ -45,9 +45,9 @@
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Accessories</li>
                 </a>
             </ul>
-            <li><a href="#" class="nav-link">Brands</a></li>
-            <li><a href="#" class="nav-link">Projects</a></li>
             <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="/brands" class="nav-link">Brands</a></li>
+            <li><a href="#" class="nav-link">Projects</a></li>
             <li><a href="#" class="nav-link">Contact Us</a></li>
         </ul>
     </nav>
