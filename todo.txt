@@ -1,0 +1,10 @@
+- Collection Page Layout
+- Enhance look of Menu
+- Data model and way to display collections of objects 
+-   Collection: Home
+-   Collection: Office
+-   Collection: Accessories
+- External Links to Brands on Home Page
+- Brands Page / Layout
+- Services Page / Layout (previously projects)
+- About Page / Layout
