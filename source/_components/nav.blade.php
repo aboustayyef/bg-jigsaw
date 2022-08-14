@@ -1,6 +1,6 @@
 <section id="navigation" class="">
 
-    <nav class="px-4 xl:px-0 w-full max-w-6xl pt-6 pb-4 lg:pb-6 mx-auto lg:flex justify-between"
+    <nav class="px-4 xl:px-0 w-full max-w-6xl pt-6 lg:pt-0 pb-4 lg:pb-0 mx-auto lg:flex justify-between"
         x-data="{ burger_open: false, collection_open: false}">
         <div class="flex justify-between items-center">
 
@@ -15,14 +15,14 @@
                     <x-graphics.burger />
                 </div>
                 <div x-show="burger_open" x-on:click="burger_open= !burger_open">
-                    <x-graphics.x classes="w-8 h-8" />
+                    <x-graphics.x classes="lg:hidden w-8 h-8" />
                 </div>
             </div>
         </div>
-        <ul class="relative mt-4 lg:mt-0 lg:flex lg:space-x-4" :class="burger_open ? 'block' : 'hidden'">
+        <ul class="relative mt-4 lg:mt-0 lg:flex" :class="burger_open ? 'block' : 'hidden'">
             <a href="#" class="nav-link" x-on:click="collection_open = !collection_open">
                 <li class="group">
-                    <div class="flex justify-between items-center overflow-auto group-hover:bg-slate-100">
+                    <div class="flex justify-between items-center overflow-auto">
                         Collection
                         <div class="cursor-pointer px-1" x-on:click.stop="collection_open = !collection_open">
                             <div x-show="!collection_open"> <x-graphics.chevron-down /></div>
@@ -33,7 +33,7 @@
                 </li>
             </a>
             <ul x-show="collection_open"
-                class=" lg:absolute -left-4 top-14 lg:w-40 lg:z-50 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
+                class=" lg:absolute -left-4 top-20 lg:w-40 lg:z-50 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
                 @click.outside="collection_open = !collection_open">
                 <a href="#">
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Home</li>
