@@ -1,4 +1,4 @@
-<section id="navigation" class="">
+<section id="navigation" class="bg-stone-100">
 
     <nav class="px-4 xl:px-0 w-full max-w-6xl pt-6 lg:pt-0 pb-4 lg:pb-0 mx-auto lg:flex justify-between"
         x-data="{ burger_open: false, collection_open: false}">
@@ -35,13 +35,13 @@
             <ul x-show="collection_open"
                 class=" lg:absolute -left-4 top-20 lg:w-40 lg:z-50 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
                 @click.outside="collection_open = !collection_open">
-                <a href="#">
+                <a href="/collection/home">
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Home</li>
                 </a>
-                <a href="#">
+                <a href="/collection/office">
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Office</li>
                 </a>
-                <a href="#">
+                <a href="/collection/accessories">
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Accessories</li>
                 </a>
             </ul>
