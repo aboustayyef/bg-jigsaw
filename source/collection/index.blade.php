@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-<x-nav />
+<x-nav :page="$page" />
 <section class="mb-4 h-[1px] bg-gray-300">
 </section>
 <x-partials.bg-section class="bg-white">

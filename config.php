@@ -11,6 +11,9 @@ return [
             'sort'  => '-date',
         ],
     ],
+    'active' => function ($page, $k) {
+        return $page->key == $k ? 'active' : '';
+    },
     'customer_logos'    =>  [
         'accra_brewery.png',
         'agility.jpg',

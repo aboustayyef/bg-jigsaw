@@ -1,7 +1,10 @@
+---
+key: home
+---
 @extends('_layouts.main')
 
 @section('body')
-    <x-nav />
+    <x-nav :page="$page" />
     <x-hero />
     <x-why-blog :news="$news"/>
     <x-our-customers :page="$page" />

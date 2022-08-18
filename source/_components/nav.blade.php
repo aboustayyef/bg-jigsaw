@@ -20,7 +20,7 @@
             </div>
         </div>
         <ul class="relative mt-4 lg:mt-0 lg:flex" :class="burger_open ? 'block' : 'hidden'">
-            <a href="#" class="nav-link" x-on:click="collection_open = !collection_open">
+            <a href="#" class="nav-link {{$page->active('home')}} {{$page->active('office')}} {{$page->active('accessories')}}" x-on:click="collection_open = !collection_open">
                 <li class="group">
                     <div class="flex justify-between items-center overflow-auto">
                         Collection
@@ -46,7 +46,7 @@
                 </a>
             </ul>
             <li><a href="#" class="nav-link">About</a></li>
-            <li><a href="/brands" class="nav-link">Brands</a></li>
+            <li><a href="/brands" class="nav-link {{$page->active('brands')}}">Brands</a></li>
             <li><a href="#" class="nav-link">Projects</a></li>
             <li><a href="#" class="nav-link">Contact Us</a></li>
         </ul>

@@ -27,35 +27,27 @@ sections:
         thumb: 02_volume_8_15V2.jpg
 
 
-  - section_header: Our Armchairs have Style, Strength and Grace
-    section_description: Sturdy, chique and with personality
-    section_thumbs_location: /assets/images/furnitureThumbs/ditre_armchairs/
+  - section_header: Pleasure to do Business with You
+    section_description : Our Visitor Chairs make your Guests feel Welcome
+    section_thumbs_location: /assets/images/furnitureThumbs/interstuhl-visitors/
     section_items:
-      - name: Bess
-        thumb: bess.png
-      - name: Celest
-        thumb: celest.png
-      - name: Ellie
-        thumb: ellie.png
-      - name: Hug
-        thumb: hug.png
-      - name: Jen
-        thumb: jen.png
-      - name: Ray
-        thumb: ray.png
-      - name: Round
-        thumb: round.png
+      - name: Airpad 5C30
+        thumb: 01_airpad_5C30.jpg 
+      - name: Yoster 550Y
+        thumb: 02_yoster_550Y.jpg
+      - name: Pios 5W50
+        thumb: 03_pios_5W50.jpg
+      - name: Hero 570H
+        thumb: 05_hero_570H.jpg
+      - name: Movy 46M0
+        thumb: 06_movy_46M0.jpg 
+      - name: Visit 2968
+        thumb: 09_visit_2968.jpg
+      - name: Buddy 570B
+        thumb: 10_buddy_570B.jpg
+      - name: UPis1 Black
+        thumb: 11_UPis1_Black.jpg
+      - name: UPis1 White
+        thumb: 12_UPis1_White.jpg
 
-  - section_header: Our Beds
-    section_description: You spend a third of your life in bed. Make the best out of it.
-    section_thumbs_location: /assets/images/furnitureThumbs/ditre_beds/
-    section_items:
-      - name: Agave
-        thumb: agave.png
-      - name: Amos
-        thumb: amos.png
-      - name: Flann
-        thumb: flann.png
-      - name: Laud
-        thumb: laud.png
 ---
