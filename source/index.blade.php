@@ -1,5 +1,5 @@
 ---
-key: home
+key: homepage
 ---
 @extends('_layouts.main')
 

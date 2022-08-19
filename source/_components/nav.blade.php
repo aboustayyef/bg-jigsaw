@@ -45,10 +45,10 @@
                     <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Accessories</li>
                 </a>
             </ul>
-            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="/about" class="nav-link {{$page->active('about')}}">About</a></li>
             <li><a href="/brands" class="nav-link {{$page->active('brands')}}">Brands</a></li>
-            <li><a href="#" class="nav-link">Projects</a></li>
-            <li><a href="#" class="nav-link">Contact Us</a></li>
+            <li><a href="/projects" class="nav-link {{$page->active('projects')}}">Projects</a></li>
+            <li><a href="/contact" class="nav-link {{$page->active('contact')}}">Contact Us</a></li>
         </ul>
     </nav>
 </section>
