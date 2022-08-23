@@ -10,7 +10,7 @@
 
     <div class="absolute w-full aspect-[20/9] z-30 opacity-50 bg-black mix-blend-multiply "></div>
     {{-- slides --}}
-    <div class="main-carousel w-full" data-flickity='{ "fade":true, "autoPlay":true, "contain": true, "bgLazyLoad": true, "imagesLoaded": true, "pageDots": false }'>
+    <div class="main-carousel w-full" data-flickity='{ "fade":true, "autoPlay":true, "contain": true, "bgLazyLoad": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false }'>
       <div class="carousel-cell w-full aspect-[20/9]  bg-cover" data-flickity-bg-lazyload="/assets/images/slides/lennox_soft_2016_002.jpg" ></div>
       @foreach($slides_to_show as $slide)
       <div class="carousel-cell w-full aspect-[20/9] bg-cover" data-flickity-bg-lazyload="/assets/images/slides/{{$all_slides[$slide]}}" ></div>
