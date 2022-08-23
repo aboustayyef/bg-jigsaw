@@ -32,17 +32,18 @@
                     </div>
                 </li>
             </a>
+            {{-- popup menu --}}
             <ul x-show="collection_open"
-                class=" lg:absolute -left-4 top-20 lg:w-40 lg:z-50 lg:border-t lg:border-slate-100 lg:shadow-lg group-hover:bg-inherit"
+                class=" rounded-md overflow-hidden lg:absolute left-0 top-[72px] lg:w-40 lg:z-50 lg:border-t lg:border-stone-100 lg:shadow-lg group-hover:bg-inherit"
                 @click.outside="collection_open = !collection_open">
                 <a href="/collection/home">
-                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Home</li>
+                    <li class=" p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Home</li>
                 </a>
                 <a href="/collection/office">
-                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Office</li>
+                    <li class="p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Office</li>
                 </a>
                 <a href="/collection/accessories">
-                    <li class="p-2 hover:bg-slate-200 bg-slate-100 lg:bg-white">Accessories</li>
+                    <li class="p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Accessories</li>
                 </a>
             </ul>
             <li><a href="/about" class="nav-link {{$page->active('about')}}">About</a></li>
