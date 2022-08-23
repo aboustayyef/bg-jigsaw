@@ -13,10 +13,8 @@
         <x-nav :page="$page" />
         <section class="mb-4 h-[1px] bg-gray-300"></section>
         <x-partials.bg-section class="bg-white">
-            <h2 class="inline-block text-4xl font-bold my-4 text-white bg-gray-700 px-4 py-1 -m-5">{{$page->header}}</h2>
-            <p class="max-w-prose text-gray-400 text-3xl font-light my-2">{{$page->subheader}}</p>
-
-
+            <h2 class="inline-block text-4xl font-bold my-4 text-white bg-stone-700 px-4 py-1 -m-5">{{$page->header}}</h2>
+            <p class="max-w-4xl text-stone-400 text-3xl font-light my-2">{{$page->subheader}}</p>
         @yield('body')
         </x-partials.bg-section>
     </body>
