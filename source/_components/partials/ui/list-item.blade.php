@@ -1,10 +1,3 @@
-{{-- 
-  requires: 
-    $title: Title of item
-    $slot: Content
-    $img: Photo (optional)
---}}
-
   <div class="mb-10">
     <div class="grid py-8 sm:grid-cols-4">
       @if(isset($img))
@@ -17,7 +10,7 @@
       @endif
       <div class="sm:col-span-3 lg:col-span-2">
         <div class="mb-3">
-          <a href="/" aria-label="Article" class="inline-block text-stone-600 transition-colors duration-200 hover:text-deep-purple-accent-700">
+          <a href="{{$url}}" aria-label="Article" class="inline-block text-stone-600 transition-colors duration-200 hover:text-deep-purple-accent-700">
             <p class="text-3xl font-extrabold leading-none sm:text-4xl xl:text-4xl">
               {{$title}}
             </p>

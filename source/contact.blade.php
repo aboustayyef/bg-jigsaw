@@ -34,17 +34,17 @@ subheader: Visit our Tema showroom for a closer look at our furniture collection
 </div>
 <p>Other Ways to get in touch</p>
 <div class="mt-4 flex space-x-2">
-   <a href="#" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
+   <a href="mailto:bluegalleryghana@gmail.com" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
+      <x-graphics.message class="" />
+   </a>
+   <a href="https://www.instagram.com/bluegallery_ghana/" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
+      <x-graphics.instagram class="" />
+   </a>
+   <a href="https://twitter.com/blue_gallery" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
       <x-graphics.twitter class="" />
    </a>
-   <a href="#" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
-      <x-graphics.twitter class="" />
-   </a>
-   <a href="#" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
-      <x-graphics.twitter class="" />
-   </a>
-   <a href="#" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
-      <x-graphics.twitter class="" />
+   <a href="https://web.facebook.com/blue.gallery.ghana" class="flex items-center justify-around h-16 w-16 rounded-full bg-white border-[16px] border-black hover:border-accent">
+      <x-graphics.facebook class="" />
    </a>
    
 </div>
