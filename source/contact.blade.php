@@ -6,7 +6,7 @@ header: Contact Us
 subheader: Visit our Tema showroom for a closer look at our furniture collection
 ---
 @section('body')
-<h2 class="py-4 mt-4 border-t text-2xl font-bold text-accent uppercase ">Business Hours : MON-FRI : 9:00 - 17:00 , SAT
+<h2 class="py-4 mt-4 border-t text-xl font-bold text-stone-500 uppercase ">Business Hours : <span class="text-accent">MON-FRI</span> : 9:00 - 17:00 , SAT
    10:00 - 15:00 SUNDAY CLOSED</h2>
 <div class="border border-stone-200 inline-block shadow-lg my-8">
    <img class="" src="/assets/images/bluegallery-showroom-tema.jpg" alt="Blue Gallery Showroom in Tema">
