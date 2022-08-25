@@ -2,7 +2,7 @@
   <div>
     <h3 class="text-xl py-4 font-bold uppercase text-accent">{{$title}}</h3>
        <figure class="w-full">
-      <img src="{{$img}}" class="w-full">
+      <a href="{{$destination}}"><img src="{{$img}}" class="w-full"></a>
       <figcaption class="mt-4 pb-8">
         {{$slot}}
       </figcaption>

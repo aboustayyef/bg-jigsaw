@@ -2,7 +2,7 @@
   {{-- <div class="flex"> --}}
     <div class="w-full pr-8">
       <x-partials.heading heading="Why Blue Gallery" sub="6 Reasons why our furniture stands out" />
-      <div class="mt-6 grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="mt-6 grid grid-cols-2 lg:grid-cols-3 gap-8">
         <x-partials.why-bg title="Modern">Twenty first century designs and trends using the latest technologies in
           execution and materials</x-partials.why-bg>
         <x-partials.why-bg title="TASTEFUL">Beautiful furniture executed by award-winning designers and trend setters.

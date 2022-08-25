@@ -2,7 +2,7 @@
     <div class="grid py-8 sm:grid-cols-4">
       @if(isset($img))
       <div class="mb-4 sm:mb-0 mr-6 bg-gray-100 aspect-video rounded-md overflow-hidden shadow-md ">
-          <img src="{{$img}}"  class="w-full h-full object-cover">
+          <a href="{{$url}}"><img src="{{$img}}"  class="w-full h-full object-cover"></a>
       </div>
       @else
       {{-- empty div --}}

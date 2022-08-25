@@ -4,8 +4,8 @@
       <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
     </svg>
     <div>
-      <h3 class="text-gray-600 text-xl font-bold uppercase mb-6">{{$title}}</h3>
-  <p class="text-gray-500">{{$slot}}</p>
+      <h3 class="text-gray-600 text-xl font-bold uppercase lg:mb-6">{{$title}}</h3>
+  <p class="text-gray-500 hidden lg:block">{{$slot}}</p>
     </div>
   </div>
   
