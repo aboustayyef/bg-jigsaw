@@ -8,7 +8,7 @@
       </figcaption>
     </figure>
   </div>
-  <a href="#" class="mt-auto">
+  <a href="{{$destination}}" class="mt-auto">
     <div class="inline-block px-4 py-2 border border-gray-300 rounded-md hover:border-accent hover:text-white hover:bg-accent">
       Show Me More
     </div>
