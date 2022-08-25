@@ -20,6 +20,7 @@
             </div>
         </div>
         <ul class="relative mt-4 lg:mt-0 lg:flex" :class="burger_open ? 'block' : 'hidden'">
+            <li><a href="/" class="nav-link {{$page->active('homepage')}}">Home</a></li>
             <a href="#" class="nav-link {{$page->active('home')}} {{$page->active('office')}} {{$page->active('accessories')}}" x-on:click="collection_open = !collection_open">
                 <li class="group">
                     <div class="flex justify-between items-center overflow-auto">
@@ -34,13 +35,13 @@
             </a>
             {{-- popup menu --}}
             <ul x-show="collection_open"
-                class=" rounded-md overflow-hidden lg:absolute left-0 top-[72px] lg:w-40 lg:z-50 lg:border-t lg:border-stone-100 lg:shadow-lg group-hover:bg-inherit"
+                class=" rounded-md overflow-hidden lg:absolute left-14 top-[72px] lg:w-40 lg:z-50 lg:border-t lg:border-stone-100 lg:shadow-lg group-hover:bg-inherit"
                 @click.outside="collection_open = !collection_open">
                 <a href="/collection/home">
-                    <li class=" p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Home</li>
+                    <li class=" p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Home Furniture</li>
                 </a>
                 <a href="/collection/office">
-                    <li class="p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Office</li>
+                    <li class="p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Office Furniture</li>
                 </a>
                 <a href="/collection/accessories">
                     <li class="p-2 lg:px-4 py-3 hover:bg-stone-300 bg-stone-100 lg:bg-stone-200">Accessories</li>

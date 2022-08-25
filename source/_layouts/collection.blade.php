@@ -10,8 +10,8 @@ $page->title = "Blue Gallery Ghana | " . ucfirst($page->key) . " Collection";
   <div class="px-4 xl:px-0 pt-8 pb-12 w-full max-w-6xl mx-auto">
   {{-- Pill tabs --}}
 <div class="flex space-x-2">
-  <a class="pill @if($page->key == 'home') active @endif" href="/collection/home">Home</a>
-  <a class="pill @if($page->key == 'office') active @endif" href="/collection/office">Office</a>
+  <a class="pill @if($page->key == 'home') active @endif" href="/collection/home">Home <span class="hidden md:inline-block">Furniture</span></a>
+  <a class="pill @if($page->key == 'office') active @endif" href="/collection/office">Office <span class="hidden md:inline-block">Furniture</span></a>
   <a class="pill @if($page->key == 'accessories') active @endif" href="/collection/accessories">Accessories</a>
   </div>
   
