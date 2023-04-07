@@ -14,14 +14,19 @@ subheader: Visit our Tema showroom for a closer look at our furniture collection
    <div class="p-4">
       <div class="flex items-center space-x-6">
          {{-- Call Us --}}
-         <a class="button flex hover:bg-stone-100 p-2 border border-stone-200 rounded-md" href="tel:+233264672320">
+         {{-- <a class="button flex hover:bg-stone-100 p-2 border border-stone-200 rounded-md" href="tel:+233264672320">
             <x-graphics.phone class="mr-2 text-accent" />
             <p>Call Now</p>
-         </a>
+         </a> --}}
          {{-- Whatsapp --}}
-         <a href="https://wa.me/233264672320" class="flex items-center">
+         {{-- <a href="https://wa.me/233264672320" class="flex items-center">
             <x-graphics.whatsapp class="mr-2 text-accent" />
             <p>Whatsapp</p>
+         </a> --}}
+         {{-- email --}}
+         <a href="mailto:bluegalleryghana@gmail.com" class="flex items-center">
+            <x-graphics.email class="mr-2 text-accent" />
+            <p>Email</p>
          </a>
          {{-- Map --}}
          <a class="button flex items-center"
